@@ -46,7 +46,7 @@ export default async function BlogArticle({
             />
 
             <div className="mt-16 prose prose-blue prose-xl dark:prose-invert prose-li:marker:text-primary prose-a:text-primary">
-                <PortableText value={JSON.parse(data.content)} />
+                <PortableText value={data.content} />
             </div>
         </div>
     );

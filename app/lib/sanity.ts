@@ -10,6 +10,6 @@ export const client = createClient({
 
 const builder = imagaUrlBuilder(client)
 
-export function urlFor(source: string) {
+export function urlFor(source: any) {
     return builder.image(source);
 }
